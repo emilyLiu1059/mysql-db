@@ -17,3 +17,18 @@ mysql -u root -p
 ALTER USER 'root'@'localhost' IDENTIFIED BY '{mypass}';
 exit;
 ```
+```
+CREATE DATABASE emilydb;
+show databases;
+mysql -uroot -pmypass emilydb;
+show tables;
+```
+```
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+```
