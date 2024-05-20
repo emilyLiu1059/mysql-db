@@ -10,6 +10,10 @@ sudo systemctl start mysqld
 sudo systemctl enable mysqld
 ```
 ```
+GRANT ALL ON *.* to root@'%' IDENTIFIED BY '{mypass}'   # make localhost available
+FLUSH PRIVILEGES;
+```
+```
 sudo grep 'temporary password' /var/log/mysqld.log
 mysql -u root -p
 ```
