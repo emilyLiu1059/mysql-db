@@ -16,6 +16,9 @@ mysql -u root -p
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED BY '{mypass}';
 exit;
+
+# mysql --host=localhost --user=myname --password=password mydb
+# mysql -h localhost -u myname -ppassword mydb
 ```
 ```
 CREATE DATABASE emilydb;
