@@ -36,8 +36,7 @@ CREATE TABLE Customers (
 );
 describe Customers;
 
-INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
-VALUES ('Alfreds Futterkiste', Maria Anders', 'Obere Str. 57', 'Berlin', '12209', 'Germany');
+# INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country) VALUES ('Alfreds Futterkiste', Maria Anders', 'Obere Str. 57', 'Berlin', '12209', 'Germany');
 
 INSERT INTO Customers VALUES (1, 'Alfreds Futterkiste', 'Maria Anders', 'Obere Str. 57', 'Berlin', '12209', 'Germany');
 INSERT INTO Customers VALUES (2, 'Ana Trujillo Emparedados y helados',	'Ana Trujillo', 	'Avda. de la Constitución 2222', 	'México D.F.', 	'05021', 	'Mexico');
