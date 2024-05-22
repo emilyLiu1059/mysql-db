@@ -1,4 +1,8 @@
 # mysql-db
+- https://docs.yugabyte.com/preview/sample-data/northwind/
+- https://en.wikiversity.org/wiki/Database_Examples/Northwind
+- https://en.wikiversity.org/wiki/Database_Examples/Northwind/MySQL
+  
 ```
 sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
@@ -54,6 +58,10 @@ INSERT INTO Customers VALUES (6, 'Blauer See Delikatessen','Hanna Moos','Forster
 INSERT INTO Customers VALUES (7, 'Blondel père et fils','Frédérique Citeaux',	'24, place Kléber','Strasbourg','67000','France');
 INSERT INTO Customers VALUES (8, 'Bólido Comidas preparadas','Martín Sommer', 'C/ Araquil, 67', 'Madrid','28023','Spain');
 INSERT INTO Customers VALUES (9, 'Bon app\'','Laurence Lebihans','12, rue des Bouchers','Marseille','13008','France');
+```
+
+```
+mysql -u username -p pass yourdb < my.sql
 ```
 
 
