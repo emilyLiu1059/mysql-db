@@ -35,6 +35,10 @@ mysql -uroot -pmypass emilydb;
 show tables;
 ```
 ```
+mysql -u username -p pass yourdb < my.sql
+```
+
+```
 CREATE TABLE Customers (
     CustomerID int NOT NULL AUTO_INCREMENT,
     CustomerName varchar(255),
@@ -60,8 +64,5 @@ INSERT INTO Customers VALUES (8, 'Bólido Comidas preparadas','Martín Sommer', 
 INSERT INTO Customers VALUES (9, 'Bon app\'','Laurence Lebihans','12, rue des Bouchers','Marseille','13008','France');
 ```
 
-```
-mysql -u username -p pass yourdb < my.sql
-```
 
 
