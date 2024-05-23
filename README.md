@@ -27,7 +27,7 @@ FLUSH PRIVILEGES;
 ```
 ```
 # mysql --host=localhost --user=myname --password=password mydb
-# mysql -h localhost -u myname -ppassword mydb
+# mysql -h localhost -uusername -ppassword mydb
 ```
 ```
 CREATE DATABASE emilydb;
