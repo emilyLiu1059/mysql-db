@@ -37,10 +37,9 @@ mysql -u username -p pass yourdb < my.sql
 ```
 CREATE DATABASE emilydb;
 show databases;
-mysql -uroot -pmypass emilydb;
+use emilydb;
 show tables;
-describe Customers;
-
+describe Customers;   # describe tablename
 ```
 
 
