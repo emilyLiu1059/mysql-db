@@ -25,8 +25,10 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '{mypass}';
 exit;
 
 ```
+```
 GRANT ALL ON *.* to root@'%' IDENTIFIED BY '{mypass}'   # make localhost available
 FLUSH PRIVILEGES;
+```
 ```
 # mysql --host=localhost --user=myname --password=password mydb
 # mysql -h localhost -u myname -ppassword mydb
