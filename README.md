@@ -15,10 +15,7 @@ sudo systemctl start mysqld
 sudo systemctl enable mysqld
 
 ```
-```
-GRANT ALL ON *.* to root@'%' IDENTIFIED BY '{mypass}'   # make localhost available
-FLUSH PRIVILEGES;
-```
+
 ```
 sudo grep 'temporary password' /var/log/mysqld.log
 mysql -u root -p
@@ -65,6 +62,9 @@ INSERT INTO Customers VALUES (7, 'Blondel père et fils','Frédérique Citeaux',
 INSERT INTO Customers VALUES (8, 'Bólido Comidas preparadas','Martín Sommer', 'C/ Araquil, 67', 'Madrid','28023','Spain');
 INSERT INTO Customers VALUES (9, 'Bon app\'','Laurence Lebihans','12, rue des Bouchers','Marseille','13008','France');
 ```
-
+```
+GRANT ALL ON *.* to root@'%' IDENTIFIED BY '{mypass}'   # make localhost available
+FLUSH PRIVILEGES;
+```
 
 
