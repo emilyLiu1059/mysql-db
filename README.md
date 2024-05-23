@@ -22,7 +22,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '{mypass}';
 exit;
 ```
 ```
-GRANT ALL ON *.* to root@'%' IDENTIFIED BY '{mypass}'   # make localhost available
+GRANT ALL ON *.* to root@'%' IDENTIFIED BY '{mypass}'   # make ip/hostname available for access from another vm
 FLUSH PRIVILEGES;
 ```
 ```
