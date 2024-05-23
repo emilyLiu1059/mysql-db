@@ -1,8 +1,7 @@
 # mysql-db
 - https://docs.yugabyte.com/preview/sample-data/northwind/
 - https://en.wikiversity.org/wiki/Database_Examples/Northwind
-- https://en.wikiversity.org/wiki/Database_Examples/Northwind/MySQL
-  
+- https://en.wikiversity.org/wiki/Database_Examples/Northwind/MySQL  
 ```
 sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
