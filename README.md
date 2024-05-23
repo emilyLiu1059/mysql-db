@@ -24,6 +24,10 @@ mysql -u root -p
 ALTER USER 'root'@'localhost' IDENTIFIED BY '{mypass}';
 exit;
 
+```
+GRANT ALL ON *.* to root@'%' IDENTIFIED BY '{mypass}'   # make localhost available
+FLUSH PRIVILEGES;
+```
 # mysql --host=localhost --user=myname --password=password mydb
 # mysql -h localhost -u myname -ppassword mydb
 ```
@@ -62,9 +66,6 @@ INSERT INTO Customers VALUES (7, 'Blondel père et fils','Frédérique Citeaux',
 INSERT INTO Customers VALUES (8, 'Bólido Comidas preparadas','Martín Sommer', 'C/ Araquil, 67', 'Madrid','28023','Spain');
 INSERT INTO Customers VALUES (9, 'Bon app\'','Laurence Lebihans','12, rue des Bouchers','Marseille','13008','France');
 ```
-```
-GRANT ALL ON *.* to root@'%' IDENTIFIED BY '{mypass}'   # make localhost available
-FLUSH PRIVILEGES;
-```
+
 
 
