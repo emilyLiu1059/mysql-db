@@ -18,6 +18,8 @@ sudo systemctl enable mysqld
 
 ```
 sudo grep 'temporary password' /var/log/mysqld.log
+```
+```
 mysql -u root -p
 ```
 ```
